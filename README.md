@@ -1,9 +1,16 @@
 # django-tutorial
 настройка
-python -m venv venv
+python3 -m venv venv
 
 
 запуск
+#Linux
 source venv/bin/activate
-pip install -r requirements.txt
+#Windows
+
+venv\bin\activate.bat
+
+#Запустить один раз
+pip3 install -r requirements.txt
+
 
